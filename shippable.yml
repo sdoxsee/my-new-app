@@ -11,5 +11,5 @@ before_script:
 
 # Running the tests with ember
 script:
-  - bower install
+  - ./node_modules/.bin/bower install
   - ./node_modules/.bin/ember test > shippable/testresults/result.xml
